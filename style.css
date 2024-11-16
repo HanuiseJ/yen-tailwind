@@ -1,5 +1,5 @@
 .hvr-sweep-to-top {
-    display: inline-block;
+    
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -34,6 +34,9 @@
     transition-timing-function: ease-out;
     border-radius: 2px;
   }
+  .hvr-sweep-to-top:hover svg, 
+  .hvr-sweep-to-top:focus svg, 
+  .hvr-sweep-to-top:active svg,
   .hvr-sweep-to-top:hover a, 
   .hvr-sweep-to-top:focus a, 
   .hvr-sweep-to-top:active a,
@@ -41,6 +44,7 @@
   .hvr-sweep-to-top:focus div, 
   .hvr-sweep-to-top:active div {
       color: #FFFAFA;
+      fill: #FFFAFA;
   }
   
   .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
